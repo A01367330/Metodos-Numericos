@@ -1,0 +1,125 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 0,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+    "def suma(A, B)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[[2, 1], [1, 1]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "def suma(A,B):\n",
+    "    if len(A) != len(B):\n",
+    "        print(\"No se puede realizar la suma. El numero de renglones no es igual\")\n",
+    "        return\n",
+    "    if len(A[0]) != len(B[0]):\n",
+    "        print(\"No se puede realizar la suma. El numero de columnas no es igual\")\n",
+    "        return\n",
+    "    c= A\n",
+    "    for i in range (len(A)):\n",
+    "        for j in range(len(A[0])):\n",
+    "            c[i][j]= A[i][j]+B[i][j]\n",
+    "            return c\n",
+    "A= [[1,1],[1,1]]\n",
+    "\n",
+    "print(suma(A,A))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[[0, 1], [1, 1]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "def resta(A,B):\n",
+    "    if len(A) != len(B):\n",
+    "        print(\"No se puede realizar la suma. El numero de renglones no es igual\")\n",
+    "        return\n",
+    "    if len(A[0]) != len(B[0]):\n",
+    "        print(\"No se puede realizar la suma. El numero de columnas no es igual\")\n",
+    "        return\n",
+    "    c= A\n",
+    "    for i in range (len(A)):\n",
+    "        for j in range(len(A[0])):\n",
+    "            c[i][j]= A[i][j]-B[i][j]\n",
+    "            return c\n",
+    "A= [[1,1],[1,1]]\n",
+    "\n",
+    "print(resta(A,A))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 0,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 0,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (Anaconda 5)",
+   "language": "python",
+   "name": "anaconda5"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}
